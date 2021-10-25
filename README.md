@@ -26,7 +26,7 @@ but, i keep adding middleware for validate the method.
 
 ## How to Use
 1. clone this repository: 
-   ```https://gitlab.com/alfisalim/mnc-test.git```
+   ```https://github.com/alfisalim/mnc-test.git```
 2. change directory to this project : ```cd mnc-test/```
 3. open terminal, cmd, or etc and type this command 
    - ```go mod download``` for install all library needed
@@ -36,12 +36,12 @@ but, i keep adding middleware for validate the method.
 ## Documentation
 | Service  | Method | Url | Endpoint | Header | Request | Response | Description |
 | -------- | ------ | --- | -------- | ------ | ------- | -------- | ----------- |
-| GetLanguages | GET | localhost:7001 | /languages | - | - | [response](###responseGetLanguages) | service for get all data language |
-| GetLanguage | GET | localhost:7001 | /language/:id | - | - | [response](###responseGetLanguage) | service for get specific data language |
-| InsertLanguage | POST | localhost:7001 | /language | - | [request](###requestInsertLanguage) | [response](###responseInsertLanguage)  | service for insert data language |
-| UpdateLanguage | PUT | localhost:7001 | /language/:id | - | [request](###requestInsertLanguage) | [response](###responseUpdateLanguage) | service for update data language |
-| DeleteLanguage | DELETE | localhost:7001 | /language/:id | - | - | [response](###responseGetLanguages) | service for delete data language |
-| PalindromeValidation | GET | localhost:7001 | /palindrome?text= | - | - | [response](###responsePalindromeValidation) | service for check isn't text contain palindrome or not |
+| GetLanguages | GET | localhost:7001 | /languages | - | - | [response](#responseGetLanguages) | service for get all data language |
+| GetLanguage | GET | localhost:7001 | /language/:id | - | - | [response](#responseGetLanguage) | service for get specific data language |
+| InsertLanguage | POST | localhost:7001 | /language | - | [request](#requestInsertLanguage) | [response](###responseInsertLanguage)  | service for insert data language |
+| UpdateLanguage | PUT | localhost:7001 | /language/:id | - | [request](#requestInsertLanguage) | [response](###responseUpdateLanguage) | service for update data language |
+| DeleteLanguage | DELETE | localhost:7001 | /language/:id | - | - | [response](#responseGetLanguages) | service for delete data language |
+| PalindromeValidation | GET | localhost:7001 | /palindrome?text= | - | - | [response](#responsePalindromeValidation) | service for check isn't text contain palindrome or not |
 
 
 ****
