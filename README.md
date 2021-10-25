@@ -1,8 +1,8 @@
-#MNC TEST
+# MNC TEST
 
 ****
 
-##Description
+## Description
 This repository contain my result for mnc test-case golang developer.
 little bit about this project, i made this project using echo framework and
 clean code technique. In project structure, there is 3 layers, 
@@ -19,12 +19,12 @@ this layer also used as receiver return from adapter layers.
 Adapter layer used for build response from request, actually this layer
 used for handling all about client, either third party, database, or etc.
 
-##Note
+## Note
 By default, when we hit some service that unregistered in our application, echo framework
 smartly will return "message not allowed", so this automatically answaring the question number 3 point 3.
 but, i keep adding middleware for validate the method.
 
-##How to Usage
+## How to Use
 1. clone this repository: 
    ```https://gitlab.com/alfisalim/mnc-test.git```
 2. change directory to this project : ```cd mnc-test/```
@@ -33,7 +33,7 @@ but, i keep adding middleware for validate the method.
    - ```go run main.go``` for running service
 4. we can test every service on this project using tools rest client like postman or etc.
 
-##Documentation
+## Documentation
 | Service  | Method | Url | Endpoint | Header | Request | Response | Description |
 | -------- | ------ | --- | -------- | ------ | ------- | -------- | ----------- |
 | GetLanguages | GET | localhost:7001 | /languages | - | - | [response](###responseGetLanguages) | service for get all data language |
@@ -47,7 +47,7 @@ but, i keep adding middleware for validate the method.
 ****
 ****
 
-###responseGetLanguages
+### responseGetLanguages
 ``` 
 {
     "status-code": 200,
@@ -82,7 +82,7 @@ but, i keep adding middleware for validate the method.
 }
 ```
 
-###responseGetLanguage
+### responseGetLanguage
 ``` 
 {
     "status-code": 200,
@@ -115,7 +115,7 @@ but, i keep adding middleware for validate the method.
 }
 ```
 
-###requestInsertLanguage
+### requestInsertLanguage
 ``` 
 {
     "language": "Go",
@@ -145,7 +145,7 @@ but, i keep adding middleware for validate the method.
 ```
 
 
-###responseInsertLanguage
+### responseInsertLanguage
 ``` 
 {
     "status-code": 201,
@@ -180,7 +180,7 @@ but, i keep adding middleware for validate the method.
 }
 ```
 
-###responseUpdateLanguage
+### responseUpdateLanguage
 ``` 
 {
     "status-code": 200,
@@ -213,7 +213,7 @@ but, i keep adding middleware for validate the method.
 }
 ```
 
-###responsePalindromeValidation
+### responsePalindromeValidation
 ``` 
 {
     "status-code": 200,
@@ -223,5 +223,5 @@ but, i keep adding middleware for validate the method.
 ```
 
 
-##Author
+## Author
 **ALFI SALIM** | Programmer | **alfisalim.12@gmail.com**
