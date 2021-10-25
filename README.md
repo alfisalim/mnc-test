@@ -38,8 +38,8 @@ but, i keep adding middleware for validate the method.
 | -------- | ------ | --- | -------- | ------ | ------- | -------- | ----------- |
 | GetLanguages | GET | localhost:7001 | /languages | - | - | [response](#responseGetLanguages) | service for get all data language |
 | GetLanguage | GET | localhost:7001 | /language/:id | - | - | [response](#responseGetLanguage) | service for get specific data language |
-| InsertLanguage | POST | localhost:7001 | /language | - | [request](#requestInsertLanguage) | [response](###responseInsertLanguage)  | service for insert data language |
-| UpdateLanguage | PUT | localhost:7001 | /language/:id | - | [request](#requestInsertLanguage) | [response](###responseUpdateLanguage) | service for update data language |
+| InsertLanguage | POST | localhost:7001 | /language | - | [request](#requestInsertLanguage) | [response](#responseInsertLanguage)  | service for insert data language |
+| UpdateLanguage | PUT | localhost:7001 | /language/:id | - | [request](#requestInsertLanguage) | [response](#responseUpdateLanguage) | service for update data language |
 | DeleteLanguage | DELETE | localhost:7001 | /language/:id | - | - | [response](#responseGetLanguages) | service for delete data language |
 | PalindromeValidation | GET | localhost:7001 | /palindrome?text= | - | - | [response](#responsePalindromeValidation) | service for check isn't text contain palindrome or not |
 
